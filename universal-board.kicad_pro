@@ -596,6 +596,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -620,6 +628,10 @@
     [
       "d3bc8089-8207-4629-875b-88a1d886a985",
       "psu_high_power"
+    ],
+    [
+      "b28a21dd-1aff-4e24-a93f-dbc2ef34d4d1",
+      "led_array"
     ]
   ],
   "text_variables": {}
