@@ -2070,7 +2070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
+		(property "Value" "LPT1440S-HS-05"
 			(at 179.07 86.3599 0)
 			(effects
 				(font

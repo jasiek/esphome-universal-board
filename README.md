@@ -7,3 +7,4 @@
 * USB PD Controller: [CH224K](https://www.laskakit.cz/user/related_files/ch224ds1.pdf)
 * CC1101 868MHz module: [Small](https://ae01.alicdn.com/kf/H425240e05325482f9e129bee543d8c9eR.jpg) or [Large](https://ae01.alicdn.com/kf/S28ad7d5c77624d52bd05b87e7f74fee7y.jpg)
 * Level shifter: [74AHCT1G125](https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf)
+* Buzzer: [LPT1440S-HS-05](https://www.tme.eu/Document/ccb72bb5ba4b269fcfcf63562faa0900/LPT1440S-HS-05-4.0-12-R.pdf)
