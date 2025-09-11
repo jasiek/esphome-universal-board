@@ -930,7 +930,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3994a663-c00f-4c57-af62-9ea4f46ef6c3")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 170.18 41.8398 0)
 			(effects
 				(font
@@ -996,7 +996,7 @@
 		(instances
 			(project "universal-board"
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/b28a21dd-1aff-4e24-a93f-dbc2ef34d4d1"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1012,7 +1012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cdbfa46-165f-4c73-845b-7ca4d6af5085")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 125.73 58.4199 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/b28a21dd-1aff-4e24-a93f-dbc2ef34d4d1"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1082,7 +1082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd273c96-5e34-4a09-bdda-78af215fe2e2")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 109.22 41.8398 0)
 			(effects
 				(font
@@ -1143,7 +1143,7 @@
 		(instances
 			(project "universal-board"
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/b28a21dd-1aff-4e24-a93f-dbc2ef34d4d1"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)

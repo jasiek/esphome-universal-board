@@ -1,3 +1,11 @@
+# [esphome.io](https://esphome.io)-compatible universal board
+
+* Can control an air conditioning unit and read its remote to display current state of unit.
+* Can drive multiple WS2812 LEDs to indicate something.
+* Can drive a buzzer to indicate something.
+* Notifications using the above can be acknowledged with a click of a button.
+* Can read the state of a water meter which uses WMBUS using a CC1101 module.
+* Can incorporate additional sensors via I2C.
 
 ## Parts
 
