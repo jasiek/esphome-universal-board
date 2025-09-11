@@ -611,16 +611,16 @@
 		)
 	)
 	(junction
+		(at 91.44 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "025a4ba8-0ad9-4db7-8dbd-f355afb6a04f")
+	)
+	(junction
 		(at 157.48 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "248e198b-7c98-45c9-ba73-bb4757648d3d")
-	)
-	(junction
-		(at 91.44 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e513878-3240-46e6-bad5-ad454f613ada")
 	)
 	(junction
 		(at 91.44 71.12)
@@ -652,15 +652,29 @@
 		(color 0 0 0 0)
 		(uuid "fe986006-07e0-416f-be53-56f4fbfbab1a")
 	)
+	(no_connect
+		(at 167.64 48.26)
+		(uuid "c4e85569-b1a5-4d68-93f8-8df949862be8")
+	)
 	(wire
 		(pts
-			(xy 121.92 29.21) (xy 91.44 29.21)
+			(xy 58.42 29.21) (xy 91.44 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00f4aeba-a924-44b2-b1f5-211e8dd6298c")
+	)
+	(wire
+		(pts
+			(xy 91.44 29.21) (xy 91.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a6b4d5-cfbb-49f9-a537-1d4e68480976")
 	)
 	(wire
 		(pts
@@ -774,6 +788,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 29.21) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611f4d76-14cf-4c84-a6a6-a4bf4e69244e")
+	)
+	(wire
+		(pts
 			(xy 109.22 48.26) (xy 132.08 48.26)
 		)
 		(stroke
@@ -784,13 +808,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 40.64) (xy 160.02 29.21)
+			(xy 91.44 29.21) (xy 121.92 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c3dd504-6b33-4413-849b-bc2cba9eae26")
+		(uuid "9cb57199-4cd2-4913-b322-0820d2d44151")
 	)
 	(wire
 		(pts
@@ -811,16 +835,6 @@
 			(type default)
 		)
 		(uuid "c20248da-4a46-414a-84a5-c26417873966")
-	)
-	(wire
-		(pts
-			(xy 91.44 29.21) (xy 91.44 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ac327a-df5e-46cc-8a2a-4b1ccf20f218")
 	)
 	(wire
 		(pts
@@ -861,16 +875,6 @@
 			(type default)
 		)
 		(uuid "e9189ef4-ab4e-48ae-adc0-84875f18ca7a")
-	)
-	(wire
-		(pts
-			(xy 58.42 29.21) (xy 91.44 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f55fe9-731d-4dc6-8fc2-345a608257b6")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
