@@ -752,16 +752,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 72.39 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08694719-5de1-4986-9a0c-dcbb71e81d67")
-	)
-	(wire
-		(pts
 			(xy 85.09 34.29) (xy 85.09 46.99)
 		)
 		(stroke
@@ -789,6 +779,16 @@
 			(type default)
 		)
 		(uuid "17fa9e43-d710-4362-8191-fd87b8eded95")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 67.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feeb351-c30f-4a3e-8e61-14266576086a")
 	)
 	(wire
 		(pts
@@ -872,6 +872,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 59.69) (xy 67.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c269e9-bb44-494b-8834-76939a25515e")
+	)
+	(wire
+		(pts
 			(xy 78.74 43.18) (xy 82.55 43.18)
 		)
 		(stroke
@@ -922,16 +932,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 72.39 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c0ec19-728d-4439-b032-86d60d259f7a")
-	)
-	(wire
-		(pts
 			(xy 107.95 34.29) (xy 99.06 34.29)
 		)
 		(stroke
@@ -939,6 +939,16 @@
 			(type default)
 		)
 		(uuid "f5b33442-6e65-4483-bf6e-a7d18429230f")
+	)
+	(wire
+		(pts
+			(xy 67.31 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe203729-8ffe-47e3-bb09-14283c719bbc")
 	)
 	(hierarchical_label "CC2"
 		(shape input)
@@ -950,17 +960,6 @@
 			(justify right)
 		)
 		(uuid "29134c73-6648-49c8-89db-9214cf333bc3")
-	)
-	(hierarchical_label "DM"
-		(shape input)
-		(at 43.18 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b051b6e-4a52-42ea-a353-5817ad1b979f")
 	)
 	(hierarchical_label "5V"
 		(shape output)
@@ -1005,17 +1004,6 @@
 			(justify left)
 		)
 		(uuid "d29570a8-c309-45a3-a00c-6189ae8a58b2")
-	)
-	(hierarchical_label "DP"
-		(shape input)
-		(at 43.18 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df47f572-00b4-444e-b040-a03bd125d161")
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
