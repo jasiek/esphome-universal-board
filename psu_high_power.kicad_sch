@@ -699,10 +699,16 @@
 		)
 	)
 	(junction
-		(at 71.12 43.18)
+		(at 64.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13db684f-2cfc-4ac8-b7c5-96c99c2a0093")
+		(uuid "186f6c37-6f98-41cd-8a1a-2bd1c846b24b")
+	)
+	(junction
+		(at 64.77 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a2e644-4f2e-47e4-a95e-5ad00f3d453f")
 	)
 	(junction
 		(at 82.55 74.93)
@@ -729,6 +735,10 @@
 	(no_connect
 		(at 92.71 59.69)
 		(uuid "aac55757-c188-4586-b623-df02c7b6870c")
+	)
+	(no_connect
+		(at 92.71 52.07)
+		(uuid "f86961f7-6ebf-4dc4-9a4c-29ba5ee70fdd")
 	)
 	(wire
 		(pts
@@ -792,26 +802,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 71.12 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a561b9-fabf-45ab-a28b-a0ebf51fee8b")
-	)
-	(wire
-		(pts
-			(xy 92.71 52.07) (xy 116.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aac0686-71c2-4fdf-9fa3-c9f6fd3d2a8d")
-	)
-	(wire
-		(pts
 			(xy 82.55 67.31) (xy 82.55 74.93)
 		)
 		(stroke
@@ -832,6 +822,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 25.4) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d12fae-9d3a-4661-95a2-11ec44ae25b9")
+	)
+	(wire
+		(pts
 			(xy 82.55 74.93) (xy 107.95 74.93)
 		)
 		(stroke
@@ -842,13 +842,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 34.29) (xy 71.12 43.18)
+			(xy 55.88 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53db6383-8c9b-4864-9709-446b4acff4bc")
+		(uuid "5928ffcd-d861-4ed8-ae89-0eab91bd847f")
 	)
 	(wire
 		(pts
@@ -869,6 +869,16 @@
 			(type default)
 		)
 		(uuid "7b16627d-ab52-48a0-b7e6-5aca7b77ebe5")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b67df39-fd11-400a-8d96-c221ba72ff72")
 	)
 	(wire
 		(pts
@@ -902,13 +912,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 58.42 43.18)
+			(xy 64.77 34.29) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99c10e8a-ef08-447c-a92f-0acf6991302d")
+		(uuid "a90393a7-8d9a-4968-bbf0-5be633beae0b")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c580c39e-80d8-4699-8429-4bc4c3a94fe1")
 	)
 	(wire
 		(pts
@@ -919,6 +939,26 @@
 			(type default)
 		)
 		(uuid "d5c20f22-f00f-4d76-922e-b8c1a60495c1")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d1f118-a423-4fb4-9afe-2b8a31d5b3f0")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4e9812-d859-4eaf-841e-44acc784a160")
 	)
 	(wire
 		(pts
@@ -963,7 +1003,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 116.84 52.07 0)
+		(at 127 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1007,7 +1047,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 62.23 43.18 90)
+		(at 52.07 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1016,7 +1056,7 @@
 		(fields_autoplaced yes)
 		(uuid "1972f250-b8bb-44c8-b007-afc199428ad4")
 		(property "Reference" "F2"
-			(at 62.23 36.83 90)
+			(at 52.07 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1064,7 @@
 			)
 		)
 		(property "Value" "PTS18126V300 (3A)"
-			(at 62.23 39.37 90)
+			(at 52.07 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 41.91 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 43.18 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1091,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 62.23 43.18 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
