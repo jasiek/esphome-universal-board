@@ -144,6 +144,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -550,28 +699,28 @@
 		)
 	)
 	(junction
+		(at 71.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13db684f-2cfc-4ac8-b7c5-96c99c2a0093")
+	)
+	(junction
 		(at 82.55 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64167d1a-2353-416b-913e-43549f8ce087")
 	)
 	(junction
-		(at 50.8 43.18)
+		(at 99.06 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66e099ca-4a1b-421f-a7a3-3cb81c7933d6")
+		(uuid "93813a96-5f89-46b7-a142-25ba5d438a66")
 	)
 	(junction
 		(at 85.09 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78b29e3b-c3c4-4e00-a15b-e824bb88e23c")
-	)
-	(junction
-		(at 99.06 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93813a96-5f89-46b7-a142-25ba5d438a66")
+		(uuid "e18f2fac-2bf0-432f-ab6b-0e07109e2092")
 	)
 	(no_connect
 		(at 92.71 62.23)
@@ -580,6 +729,16 @@
 	(no_connect
 		(at 92.71 59.69)
 		(uuid "aac55757-c188-4586-b623-df02c7b6870c")
+	)
+	(wire
+		(pts
+			(xy 78.74 34.29) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02165ab7-8ee3-4194-9c62-637dc6026de5")
 	)
 	(wire
 		(pts
@@ -633,6 +792,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a561b9-fabf-45ab-a28b-a0ebf51fee8b")
+	)
+	(wire
+		(pts
 			(xy 92.71 52.07) (xy 116.84 52.07)
 		)
 		(stroke
@@ -640,26 +809,6 @@
 			(type default)
 		)
 		(uuid "2aac0686-71c2-4fdf-9fa3-c9f6fd3d2a8d")
-	)
-	(wire
-		(pts
-			(xy 58.42 34.29) (xy 50.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd3f996-ba48-47ef-b983-cd39cf3ba102")
-	)
-	(wire
-		(pts
-			(xy 66.04 43.18) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a2c59c-a15e-440b-a360-6068407bc5b5")
 	)
 	(wire
 		(pts
@@ -693,6 +842,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 34.29) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53db6383-8c9b-4864-9709-446b4acff4bc")
+	)
+	(wire
+		(pts
 			(xy 82.55 80.01) (xy 86.36 80.01)
 		)
 		(stroke
@@ -713,13 +872,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 34.29) (xy 50.8 43.18)
+			(xy 78.74 43.18) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "929c1c0a-1e55-49b1-8c4c-76f66c557fd9")
+		(uuid "8410d425-5fad-43c5-a1be-ab6129b70a6c")
 	)
 	(wire
 		(pts
@@ -733,23 +892,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 50.8 43.18)
+			(xy 43.18 43.18) (xy 58.42 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99c10e8a-ef08-447c-a92f-0acf6991302d")
-	)
-	(wire
-		(pts
-			(xy 66.04 34.29) (xy 85.09 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a0fbb3-de8e-479d-93d4-7f4f9995b0a8")
 	)
 	(wire
 		(pts
@@ -770,16 +919,6 @@
 			(type default)
 		)
 		(uuid "e4946faa-93d8-4a5a-8ebe-ee51dd00d445")
-	)
-	(wire
-		(pts
-			(xy 50.8 43.18) (xy 58.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb25ef41-7eb3-4cfe-bb33-4d21cf057b46")
 	)
 	(wire
 		(pts
@@ -877,6 +1016,75 @@
 			(justify right)
 		)
 		(uuid "df47f572-00b4-444e-b040-a03bd125d161")
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 62.23 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1972f250-b8bb-44c8-b007-afc199428ad4")
+		(property "Reference" "F2"
+			(at 62.23 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS18126V300 (3A)"
+			(at 62.23 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fdd957-e00c-458f-a0b7-e12a49cf05e1")
+		)
+		(pin "2"
+			(uuid "61de0e81-99f8-40ac-9561-18596f6e7622")
+		)
+		(instances
+			(project ""
+				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/d3bc8089-8207-4629-875b-88a1d886a985"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_USB:CH224K")
@@ -977,7 +1185,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 34.29 90)
+		(at 74.93 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -985,7 +1193,7 @@
 		(dnp no)
 		(uuid "6cc9bdf8-8905-49dd-ba66-5b9426fc2a25")
 		(property "Reference" "R3"
-			(at 62.23 34.29 90)
+			(at 74.93 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1201,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 62.23 32.004 90)
+			(at 74.93 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 36.068 90)
+			(at 74.93 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1227,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1252,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 43.18 90)
+		(at 74.93 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1052,7 +1260,7 @@
 		(dnp no)
 		(uuid "8cebb744-12b1-420a-b4a3-bf1519b78233")
 		(property "Reference" "R4"
-			(at 62.484 43.434 90)
+			(at 75.184 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1268,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 45.72 90)
+			(at 74.93 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 44.958 90)
+			(at 74.93 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 43.18 0)
+			(at 74.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1294,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 43.18 0)
+			(at 74.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
