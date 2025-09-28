@@ -1370,11 +1370,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 114.3 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dac029d-d13d-444b-b58a-49b6b836b6dd")
+	(text "SW_ACK_OUT is configured as INPUT_PULLUP"
+		(exclude_from_sim no)
+		(at 173.482 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a36210e2-4031-4f60-9379-5146d7030995")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -1400,6 +1404,14 @@
 		(color 0 0 0 0)
 		(uuid "c65395e6-e302-4ea5-aa5e-096570201398")
 	)
+	(no_connect
+		(at 148.59 58.42)
+		(uuid "4ba74d69-98a3-4400-90f3-e4d148b0ac4e")
+	)
+	(no_connect
+		(at 182.88 82.55)
+		(uuid "9e563698-3421-47e5-8018-adb55ea20699")
+	)
 	(wire
 		(pts
 			(xy 101.6 69.85) (xy 106.68 69.85)
@@ -1409,16 +1421,6 @@
 			(type default)
 		)
 		(uuid "00f34fd6-9806-4d2d-b186-c34ef651d04f")
-	)
-	(wire
-		(pts
-			(xy 148.59 40.64) (xy 148.59 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e86e3c-2b02-4f28-ac97-032171d4c67d")
 	)
 	(wire
 		(pts
@@ -1502,16 +1504,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 148.59 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b0f7ab-e283-489d-9484-498468f193c1")
-	)
-	(wire
-		(pts
 			(xy 81.28 87.63) (xy 114.3 87.63)
 		)
 		(stroke
@@ -1559,16 +1551,6 @@
 			(type default)
 		)
 		(uuid "b5584313-2e17-4b39-8417-b0da8a1db2ba")
-	)
-	(wire
-		(pts
-			(xy 148.59 48.26) (xy 148.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa6f252-f4cb-4ce0-827d-5d40326fd84d")
 	)
 	(wire
 		(pts
@@ -1830,76 +1812,6 @@
 			(project "universal-board"
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/ed770b04-6f81-410b-b0ec-7aa50308ff69"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47ad4301-2b41-48b5-817f-4b759deed772")
-		(property "Reference" "R9"
-			(at 151.13 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 151.13 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.368 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df96f0f-3b0c-460a-910d-5522a1593324")
-		)
-		(pin "2"
-			(uuid "2acc6984-7c79-4ed9-b8f6-3ab3a768124e")
-		)
-		(instances
-			(project "universal-board"
-				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/ed770b04-6f81-410b-b0ec-7aa50308ff69"
-					(reference "R9")
 					(unit 1)
 				)
 			)

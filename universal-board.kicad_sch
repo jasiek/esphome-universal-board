@@ -1731,7 +1731,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ5.0A"
+		(symbol "Diode:SMAJ5.0CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1750,7 +1750,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ5.0A"
+			(property "Value" "SMAJ5.0CA"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1768,15 +1768,6 @@
 				)
 			)
 			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1785,7 +1776,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1803,13 +1803,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ5.0A_0_1"
+			(symbol "SMAJ5.0CA_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1818,10 +1818,34 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1829,7 +1853,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ5.0A_1_1"
+			(symbol "SMAJ5.0CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3692,6 +3716,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pin order in connector reflects pin order in LED module"
+		(exclude_from_sim no)
+		(at 186.436 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d845618-0d53-4833-9011-1f7edd93aef8")
+	)
 	(junction
 		(at 148.59 156.21)
 		(diameter 0)
@@ -3757,6 +3791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b3614b8-841e-4e9a-880a-4860f747e1f3")
+	)
+	(junction
+		(at 30.48 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e0f3c3c-61fd-4e5c-a9d3-3a82e52cc44b")
 	)
 	(junction
 		(at 120.65 73.66)
@@ -3840,7 +3880,7 @@
 		(at 57.15 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da8c1282-8112-43e9-a059-441408a6726a")
+		(uuid "e4769e3b-d673-4d09-88da-f089dc9e3be2")
 	)
 	(junction
 		(at 67.31 40.64)
@@ -3961,10 +4001,6 @@
 		(uuid "e5380497-0f25-48a4-82c4-7c6d43d94de9")
 	)
 	(no_connect
-		(at 22.86 106.68)
-		(uuid "e591291f-718f-4e86-ba46-f61fe801734b")
-	)
-	(no_connect
 		(at 102.87 99.06)
 		(uuid "e5f8ef60-b376-4bc9-9190-b2f5a9ad2022")
 	)
@@ -4058,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 57.15 40.64)
+			(xy 50.8 40.64) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4115,16 +4151,6 @@
 			(type default)
 		)
 		(uuid "1796e759-bb98-4095-857c-121358efa50e")
-	)
-	(wire
-		(pts
-			(xy 57.15 40.64) (xy 50.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a08a0d8-2d82-4112-8726-97f7474074df")
 	)
 	(wire
 		(pts
@@ -4528,16 +4554,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 57.15 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b6c64ae-f710-40fc-b7f6-580d646f9efd")
-	)
-	(wire
-		(pts
 			(xy 165.1 135.89) (xy 165.1 114.3)
 		)
 		(stroke
@@ -4778,16 +4794,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 83.82) (xy 57.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfb6298-84fa-456c-a8b0-743ac0ad34b1")
-	)
-	(wire
-		(pts
 			(xy 20.32 185.42) (xy 20.32 189.23)
 		)
 		(stroke
@@ -4805,6 +4811,16 @@
 			(type default)
 		)
 		(uuid "7f37a9d0-4626-40ec-be1e-ec1611e0fe53")
+	)
+	(wire
+		(pts
+			(xy 57.15 40.64) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804897da-c9b9-4799-b245-fb38773a7cdd")
 	)
 	(wire
 		(pts
@@ -5018,6 +5034,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 106.68) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3554c84-bb6a-4a0a-911b-30d5b201c830")
+	)
+	(wire
+		(pts
 			(xy 72.39 55.88) (xy 85.09 55.88)
 		)
 		(stroke
@@ -5228,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 82.55) (xy 57.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f7d975-5e24-4b6a-9a30-ecd3436b9d00")
+	)
+	(wire
+		(pts
 			(xy 77.47 40.64) (xy 82.55 40.64)
 		)
 		(stroke
@@ -5295,6 +5331,16 @@
 			(type default)
 		)
 		(uuid "e664293a-4ea7-4992-bc44-2d3dc6a0e175")
+	)
+	(wire
+		(pts
+			(xy 57.15 40.64) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e793ce1c-f370-4855-ad66-9ff94f1e67fc")
 	)
 	(wire
 		(pts
@@ -5639,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a92642d-be73-4576-9538-60d3bf02a3fb")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -5689,7 +5735,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5765,6 +5811,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 57.15 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c1d0c6f-f93e-4bc3-9fe0-96169b85d415")
+		(property "Reference" "D1"
+			(at 59.69 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ5.0CA"
+			(at 59.69 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8525c4df-e115-487c-898f-13f77b3b25a5")
+		)
+		(pin "1"
+			(uuid "36cd109b-63db-4763-89ff-df915e6c5ea0")
+		)
+		(instances
+			(project ""
+				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
 		(at 49.53 133.35 90)
 		(unit 1)
@@ -5832,76 +5948,6 @@
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 57.15 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "224f1da0-01bb-4abd-95e5-e07a43a9d23c")
-		(property "Reference" "D1"
-			(at 59.69 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 59.69 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 52.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 57.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47b1d3ac-42c6-424b-8776-434ce141e1be")
-		)
-		(pin "1"
-			(uuid "e7c92316-819b-441e-8367-35b31a495aca")
-		)
-		(instances
-			(project "universal-board"
-				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45beb9e2-19a0-4e5b-93b0-34f7085e9646")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 148.59 193.04 0)
 			(effects
 				(font
@@ -6051,7 +6097,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e280e9-79bb-4205-8a85-9139bfad9a1b")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 185.42 17.145 0)
 			(effects
 				(font
@@ -6117,7 +6163,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6895,7 +6941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dcfe736-50ec-43e6-8058-398a9d369033")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -6945,7 +6991,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6961,7 +7007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0954044-05d8-42ea-94ae-cd2a803284d7")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 50.8 33.655 0)
 			(effects
 				(font
@@ -7011,7 +7057,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7163,7 +7209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b54ac5-d5bb-4dc0-9ddb-2c45984eef44")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 166.37 104.14 0)
 			(effects
 				(font
@@ -7213,7 +7259,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7229,7 +7275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c647f70e-4e5f-41e7-a426-5ff249bf0d68")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -7279,7 +7325,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d12cd678-47db-484c-bd32-aa2a45ab001e")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 62.23 99.695 0)
 			(effects
 				(font
@@ -7345,7 +7391,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e433b3cb-4d67-4385-a070-7e822fd6aa38")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 156.21 193.04 0)
 			(effects
 				(font
@@ -7482,7 +7528,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7498,7 +7544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebfb75c6-5bc3-4219-a7b2-05dfb20c4efc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -7548,7 +7594,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa284981-36c5-4c9a-8a45-a1312e5c38da")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 57.15 115.57 0)
 			(effects
 				(font
@@ -7614,7 +7660,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffad795c-1ff6-4089-97e2-efddaf79fce7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -7680,7 +7726,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

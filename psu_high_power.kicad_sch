@@ -1535,7 +1535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeb942fa-e745-4522-8871-08dda6f0f36b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 85.09 28.575 0)
 			(effects
 				(font
@@ -1585,7 +1585,7 @@
 		(instances
 			(project ""
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/d3bc8089-8207-4629-875b-88a1d886a985"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
