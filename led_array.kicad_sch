@@ -899,7 +899,7 @@
 		(uuid "24597e14-0096-4eaa-abb9-a951db4e5fd9")
 	)
 	(hierarchical_label "5V"
-		(shape input)
+		(shape output)
 		(at 58.42 29.21 180)
 		(effects
 			(font
