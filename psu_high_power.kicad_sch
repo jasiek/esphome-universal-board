@@ -824,18 +824,22 @@
 		(uuid "93813a96-5f89-46b7-a142-25ba5d438a66")
 	)
 	(junction
+		(at 96.52 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf9d2590-e323-451a-a152-d6cc68abf88f")
+	)
+	(junction
+		(at 96.52 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcfedb87-4e38-4748-b65a-149304b37e12")
+	)
+	(junction
 		(at 85.09 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e18f2fac-2bf0-432f-ab6b-0e07109e2092")
-	)
-	(no_connect
-		(at 92.71 62.23)
-		(uuid "0ba94828-d9e2-4729-b9aa-3ad60e697b6b")
-	)
-	(no_connect
-		(at 92.71 59.69)
-		(uuid "aac55757-c188-4586-b623-df02c7b6870c")
 	)
 	(no_connect
 		(at 92.71 52.07)
@@ -933,7 +937,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 107.95 74.93)
+			(xy 96.52 59.69) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50706f91-97bb-44a3-81bc-a5fdac743783")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 96.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -950,6 +964,16 @@
 			(type default)
 		)
 		(uuid "5928ffcd-d861-4ed8-ae89-0eab91bd847f")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae0af65-edd0-4991-acca-243a8636cecd")
 	)
 	(wire
 		(pts
@@ -1043,6 +1067,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9001bf9-813c-4491-8255-282d7b1c06b9")
+	)
+	(wire
+		(pts
 			(xy 85.09 34.29) (xy 99.06 34.29)
 		)
 		(stroke
@@ -1093,6 +1127,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 62.23) (xy 96.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce32bf4-27ce-4b21-ab95-526de13773ed")
+	)
+	(wire
+		(pts
 			(xy 67.31 62.23) (xy 72.39 62.23)
 		)
 		(stroke
@@ -1100,6 +1144,16 @@
 			(type default)
 		)
 		(uuid "fe203729-8ffe-47e3-bb09-14283c719bbc")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed06ace-f62f-4b6d-9d6b-47ee8d165664")
 	)
 	(hierarchical_label "CC2"
 		(shape input)
