@@ -166,167 +166,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1642,6 +1481,26 @@
 		)
 		(uuid "a36210e2-4031-4f60-9379-5146d7030995")
 	)
+	(text "22 Ohm = ~95mW (100mW max) on the LED."
+		(exclude_from_sim no)
+		(at 116.078 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af3f6889-5ca7-4e07-8b5d-ee28f6cdac7a")
+	)
+	(text "<5mA consumption (40mA max per pin on ESP32)\n"
+		(exclude_from_sim no)
+		(at 183.388 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b169e181-5dbf-463e-9d80-cc040aacd66d")
+	)
 	(junction
 		(at 77.47 38.1)
 		(diameter 0)
@@ -1653,12 +1512,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4357c244-a525-41be-bd04-5c6292ead535")
-	)
-	(junction
-		(at 77.47 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ba302ae-216d-4b68-811b-af0324b567f1")
 	)
 	(junction
 		(at 148.59 87.63)
@@ -1714,16 +1567,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 64.77) (xy 77.47 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d55407-2edb-45ff-a30f-8dc523a15daa")
-	)
-	(wire
-		(pts
 			(xy 88.9 49.53) (xy 88.9 55.88)
 		)
 		(stroke
@@ -1731,16 +1574,6 @@
 			(type default)
 		)
 		(uuid "158632f3-77e9-4b76-a070-3f5b3cde1aa4")
-	)
-	(wire
-		(pts
-			(xy 77.47 55.88) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3ed155-fb40-4d3d-80db-5fdcaad7e959")
 	)
 	(wire
 		(pts
@@ -1774,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 66.04) (xy 81.28 66.04)
+			(xy 72.39 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1931,16 +1764,6 @@
 			(type default)
 		)
 		(uuid "ceba4dfc-9681-4fda-bada-eb9514684c24")
-	)
-	(wire
-		(pts
-			(xy 72.39 66.04) (xy 77.47 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0716c5a-6272-440d-a953-d904625da35e")
 	)
 	(wire
 		(pts
@@ -2468,7 +2291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "100"
 			(at 80.01 46.9899 0)
 			(effects
 				(font
@@ -2585,76 +2408,6 @@
 			(project "universal-board"
 				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/ed770b04-6f81-410b-b0ec-7aa50308ff69"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 77.47 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d787477f-87a5-42ee-934e-e6c71db92fd7")
-		(property "Reference" "C8"
-			(at 81.28 58.8009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 81.28 61.3409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.4352 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 77.47 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f5f188-8839-4160-8206-77f5310673fc")
-		)
-		(pin "2"
-			(uuid "a9fb4a4c-2aad-47e5-8e93-35c2cc40f251")
-		)
-		(instances
-			(project ""
-				(path "/64404f27-cfd6-41d9-8edb-810ebab8cc14/ed770b04-6f81-410b-b0ec-7aa50308ff69"
-					(reference "C8")
 					(unit 1)
 				)
 			)
