@@ -6198,16 +6198,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 157.48 73.66 0)
+		(at 157.48 76.2 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c19660a-d302-489c-98e2-d2e51f8fadbf")
 		(property "Reference" "J2"
-			(at 160.02 73.6599 0)
+			(at 160.02 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6216,7 @@
 			)
 		)
 		(property "Value" "CONN_I2C_GROVE"
-			(at 160.02 76.1999 0)
+			(at 160.02 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 73.66 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 73.66 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6243,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 73.66 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
