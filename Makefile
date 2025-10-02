@@ -8,7 +8,7 @@ OUTPUT_DIR := plots
 PDF_FILE := $(OUTPUT_DIR)/universal-board-schematic.pdf
 PNG_DIR := $(OUTPUT_DIR)/png
 PNG_FILES := $(PNG_DIR)/.png_generated
-DPI := 200
+DPI := 300
 
 # Default target
 .PHONY: all
