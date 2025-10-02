@@ -41,3 +41,5 @@ fp-info-cache
 .svg2shenzhen-cache
 universal-board-backups
 ~*
+.DS_Store
+plots/png
