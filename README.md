@@ -1,5 +1,7 @@
 # [esphome.io](https://esphome.io)-compatible universal board
 
+![board](plots/png/page-1.png)
+
 * Can control an air conditioning unit and read its remote to display current state of unit.
 * Can drive multiple WS2812 LEDs to indicate something.
 * Can drive a buzzer to indicate something.
