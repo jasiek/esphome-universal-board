@@ -620,26 +620,6 @@
     [
       "64404f27-cfd6-41d9-8edb-810ebab8cc14",
       "Root"
-    ],
-    [
-      "304cb132-240f-469f-b7d9-31219ff2c2ac",
-      "psu_1a"
-    ],
-    [
-      "d3bc8089-8207-4629-875b-88a1d886a985",
-      "psu_high_power"
-    ],
-    [
-      "b28a21dd-1aff-4e24-a93f-dbc2ef34d4d1",
-      "led_array"
-    ],
-    [
-      "ed770b04-6f81-410b-b0ec-7aa50308ff69",
-      "peripherals"
-    ],
-    [
-      "68a209f5-f150-4b46-8b9b-45a7916aa769",
-      "cc1101_interface"
     ]
   ],
   "text_variables": {}
