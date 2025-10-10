@@ -10407,7 +10407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 207.772 120.65 90)
 			(effects
 				(font
@@ -10474,7 +10474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 119.38 21.59 0)
 			(effects
 				(font
@@ -10676,7 +10676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 199.39 27.94 0)
 			(effects
 				(font
@@ -10753,7 +10753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -10825,7 +10825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 31.4452 187.96 0)
 			(effects
 				(font
@@ -10893,7 +10893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -11104,7 +11104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 55.88 19.05 0)
 			(effects
 				(font
@@ -11334,7 +11334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 205.74 21.59 0)
 			(effects
 				(font
@@ -11632,7 +11632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 106.3752 88.9 0)
 			(effects
 				(font
@@ -11702,7 +11702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 197.612 20.32 90)
 			(effects
 				(font
@@ -11772,7 +11772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 176.53 0)
 			(effects
 				(font
@@ -12068,7 +12068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 55.372 123.19 90)
 			(effects
 				(font
@@ -12321,7 +12321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 220.98 71.628 90)
 			(effects
 				(font
@@ -12390,7 +12390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 60.6552 187.96 0)
 			(effects
 				(font
@@ -12601,7 +12601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 220.98 71.882 90)
 			(effects
 				(font
@@ -12874,7 +12874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 259.08 26.67 0)
 			(effects
 				(font
@@ -12938,7 +12938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 56.388 123.19 90)
 			(effects
 				(font
@@ -13005,7 +13005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 114.3 32.258 90)
 			(effects
 				(font
@@ -13075,7 +13075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 35.56 176.53 0)
 			(effects
 				(font
@@ -13205,7 +13205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 114.3 26.162 90)
 			(effects
 				(font
@@ -13361,7 +13361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 73.3552 137.16 0)
 			(effects
 				(font
@@ -13431,7 +13431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_CUI_CST-931RP-A"
 			(at 257.175 36.83 90)
 			(effects
 				(font
@@ -13501,7 +13501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 36.5252 187.96 0)
 			(effects
 				(font
@@ -13571,7 +13571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 65.7352 187.96 0)
 			(effects
 				(font
@@ -13641,7 +13641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 179.832 20.32 90)
 			(effects
 				(font
@@ -13710,7 +13710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 202.8952 124.46 0)
 			(effects
 				(font
@@ -13980,7 +13980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 167.64 81.28 0)
 			(effects
 				(font
@@ -14118,7 +14118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 259.08 142.24 0)
 			(effects
 				(font
@@ -14183,7 +14183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 234.95 132.08 0)
 			(effects
 				(font
@@ -14249,7 +14249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 65.532 123.19 90)
 			(effects
 				(font
@@ -14514,7 +14514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -14579,7 +14579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
 			(at 119.38 76.2 0)
 			(effects
 				(font
