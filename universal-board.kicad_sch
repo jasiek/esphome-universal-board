@@ -10730,15 +10730,15 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 231.14 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13b5abeb-f1cf-42b3-a2c3-65516e72b767")
 		(property "Reference" "SW2"
-			(at 231.14 22.86 0)
+			(at 231.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10746,7 @@
 			)
 		)
 		(property "Value" "SW_ACK"
-			(at 231.14 25.4 0)
+			(at 231.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,7 +10763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 39.37 0)
+			(at 231.14 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +11838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -11911,7 +11911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 237.49 55.88 0)
 			(effects
 				(font
@@ -12669,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 29.21 46.99 0)
 			(effects
 				(font
@@ -13273,7 +13273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -14658,7 +14658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical"
 			(at 156.21 137.16 0)
 			(effects
 				(font
