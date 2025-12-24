@@ -22,3 +22,11 @@
 ## Other
 
 * [A Primer on USB Type-C® and USB Power Delivery Applications and Requirements](https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf)
+
+## TODO
+
+- recheck all pin definitions against datasheet (https://www.tme.eu/Document/f123216e38c1d6983f60fdbdb465f4a7/esp32-s3-wroom-1_wroom-1u.pdf)
+- check pins for HLK family of presence detector modules
+  - [HLK-LD2450](https://www.tinytronics.nl/product_files/006000_HLK-LD2450-Instruction-Manual.pdf)
+  - [HLK-LD2402](https://drive.google.com/file/d/1SmigbSjFt1toA7W5wEuI2Qy-1CSR6PQn/view)
+  - [HLK-LD2410](https://www.tinytronics.nl/product_files/006002_HLK-LD2410S_datasheet.pdf)
