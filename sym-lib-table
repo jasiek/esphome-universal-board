@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB4105_GCT")(type "KiCad")(uri "${KIPRJMOD}/libraries/USB4105_GCT/USB4105_GCT.kicad_sym")(options "")(descr ""))
+)
