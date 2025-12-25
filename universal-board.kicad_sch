@@ -6697,6 +6697,16 @@
 		)
 		(uuid "202d821e-64c5-4ac8-ba0f-2e87302604eb")
 	)
+	(text "For CC1101-based water consumption meters."
+		(exclude_from_sim no)
+		(at 106.68 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3615a665-d018-4faf-8a14-4620a43271b7")
+	)
 	(text "<5mA consumption\n(40mA max per pin\n   on ESP32)\n"
 		(exclude_from_sim no)
 		(at 260.858 32.004 0)
@@ -6706,6 +6716,26 @@
 			)
 		)
 		(uuid "52e1a5a8-4d45-485a-9356-98b191cd0c1d")
+	)
+	(text "Strapping pins, do not connect:\nGPIO0, GPIO3, GPIO45, GPIO46"
+		(exclude_from_sim no)
+		(at 209.042 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61ce58f6-94c6-425b-80ff-b1a33e1ab84b")
+	)
+	(text "For HLK-* presence sensing."
+		(exclude_from_sim no)
+		(at 145.796 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d6e3e5e-04da-4a7b-ba4f-2d0c0ba5c37a")
 	)
 	(text "Pin order in connector reflects pin order in LED module"
 		(exclude_from_sim no)
@@ -7179,16 +7209,8 @@
 		(uuid "c3bdb082-2ab9-4dd2-96bd-c2a268a1dd6f")
 	)
 	(no_connect
-		(at 247.65 99.06)
-		(uuid "d846cc94-0a29-46f6-9e3d-e9105bfe6f9d")
-	)
-	(no_connect
 		(at 267.97 99.06)
 		(uuid "def1477b-ec29-41ad-8772-dd9df775533a")
-	)
-	(no_connect
-		(at 245.11 99.06)
-		(uuid "e6604113-def6-4c81-920c-f2fbc5d8cd35")
 	)
 	(no_connect
 		(at 40.64 72.39)
@@ -7205,10 +7227,6 @@
 	(no_connect
 		(at 240.03 129.54)
 		(uuid "f620bc0e-4fe8-437d-9b9d-004feef73fef")
-	)
-	(no_connect
-		(at 242.57 99.06)
-		(uuid "f746bcaa-3c66-476c-bba7-b5f5516d9fcb")
 	)
 	(wire
 		(pts
@@ -10615,7 +10633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 207.772 120.65 90)
 			(effects
 				(font
@@ -11910,7 +11928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 197.612 20.32 90)
 			(effects
 				(font
@@ -12276,7 +12294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 55.372 123.19 90)
 			(effects
 				(font
@@ -12335,7 +12353,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16"
 			(at 249.682 118.618 90)
 			(effects
 				(font
@@ -12529,7 +12547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 220.98 71.628 90)
 			(effects
 				(font
@@ -12809,7 +12827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 220.98 71.882 90)
 			(effects
 				(font
@@ -13146,7 +13164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 56.388 123.19 90)
 			(effects
 				(font
@@ -13213,7 +13231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 114.3 32.258 90)
 			(effects
 				(font
@@ -13413,7 +13431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 114.3 26.162 90)
 			(effects
 				(font
@@ -13925,7 +13943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 179.832 20.32 90)
 			(effects
 				(font
@@ -14533,7 +14551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 65.532 123.19 90)
 			(effects
 				(font
