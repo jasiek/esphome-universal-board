@@ -18,15 +18,11 @@
 * CC1101 868MHz module: [Small](https://ae01.alicdn.com/kf/H425240e05325482f9e129bee543d8c9eR.jpg) or [Large](https://ae01.alicdn.com/kf/S28ad7d5c77624d52bd05b87e7f74fee7y.jpg)
 * Level shifter: [74AHCT1G125](https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf)
 * Buzzer: [LPT1440S-HS-05](https://www.tme.eu/Document/ccb72bb5ba4b269fcfcf63562faa0900/LPT1440S-HS-05-4.0-12-R.pdf)
+* Presence sensors
+  * [HLK-LD2450](https://www.tinytronics.nl/product_files/006000_HLK-LD2450-Instruction-Manual.pdf)
+  * [HLK-LD2402](https://drive.google.com/file/d/1SmigbSjFt1toA7W5wEuI2Qy-1CSR6PQn/view)
+  * [HLK-LD2410](https://www.tinytronics.nl/product_files/006002_HLK-LD2410S_datasheet.pdf)
 
 ## Other
 
 * [A Primer on USB Type-C® and USB Power Delivery Applications and Requirements](https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf)
-
-## TODO
-
-- recheck all pin definitions against datasheet (https://www.tme.eu/Document/f123216e38c1d6983f60fdbdb465f4a7/esp32-s3-wroom-1_wroom-1u.pdf)
-- check pins for HLK family of presence detector modules
-  - [HLK-LD2450](https://www.tinytronics.nl/product_files/006000_HLK-LD2450-Instruction-Manual.pdf)
-  - [HLK-LD2402](https://drive.google.com/file/d/1SmigbSjFt1toA7W5wEuI2Qy-1CSR6PQn/view)
-  - [HLK-LD2410](https://www.tinytronics.nl/product_files/006002_HLK-LD2410S_datasheet.pdf)
