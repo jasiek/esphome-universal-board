@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|102230000|77580000|a4f3b0e7-07f2-4981-b028-ab8829174b22|c6f94df4-46cf-4040-b237-538489bfb118",
+          "by design"
+        ],
+        [
+          "hole_clearance|96130000|77580000|5ecb8359-fb29-40ed-a230-0e14a67b1bc8|f6c30ead-7e4b-4ca1-b391-f03d4f82b326",
+          "by design"
+        ],
+        [
+          "lib_footprint_mismatch|116250000|119750000|8d6b1fd5-c103-4a1b-b278-2a1e21d89a91|00000000-0000-0000-0000-000000000000",
+          "modified"
+        ],
+        [
+          "lib_footprint_mismatch|117544887|92250000|1bf9ae98-4bd9-4099-a298-db41c0463463|00000000-0000-0000-0000-000000000000",
+          "modified"
+        ],
+        [
+          "lib_footprint_mismatch|76312500|90700000|6e4d29b3-ec30-41ea-8020-047c06915f27|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|76537500|83637500|4f2a5086-8ad1-4884-b454-533e6f374a1f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|85800000|95999979|a10c29a5-4e59-441c-bccc-6ac21e9b89ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|86975000|114050000|da5ae110-fea2-4aa0-a6a8-822f4f68a6fc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|94844887|89550000|197cd5ad-c809-4c8e-bd37-73d782622b52|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|99180000|74615000|62426733-bc5c-4313-b72a-4a33584cfdd9|00000000-0000-0000-0000-000000000000",
+          "modified"
+        ],
+        [
+          "starved_thermal|102380000|78005000|458d8477-d445-4e06-ba0b-b4f3151ebcfc|c6f94df4-46cf-4040-b237-538489bfb118|F.Cu",
+          "by design"
+        ],
+        [
+          "starved_thermal|95980000|78005000|458d8477-d445-4e06-ba0b-b4f3151ebcfc|f6c30ead-7e4b-4ca1-b391-f03d4f82b326|F.Cu",
+          "by design"
+        ]
+      ],
       "meta": {
         "version": 2
       },
