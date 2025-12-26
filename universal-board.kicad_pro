@@ -51,8 +51,63 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "hole_clearance|104550000|77255000|c6f94df4-46cf-4040-b237-538489bfb118|a4f3b0e7-07f2-4981-b028-ab8829174b22",
+          "close enough"
+        ],
+        [
+          "hole_clearance|98450000|77255000|f6c30ead-7e4b-4ca1-b391-f03d4f82b326|5ecb8359-fb29-40ed-a230-0e14a67b1bc8",
+          "close enough"
+        ],
+        [
+          "silk_edge_clearance|122500000|109300000|01b19a62-8cca-4edf-8ec9-07e5c58e12e9|3599d74c-9dfb-45e4-b23a-b626abb47d67",
+          ""
+        ],
+        [
+          "silk_edge_clearance|122500000|127700000|01b19a62-8cca-4edf-8ec9-07e5c58e12e9|2a349753-54d4-4764-a5a9-a8dbc0e454a6",
+          ""
+        ],
+        [
+          "silk_over_copper|105475050|100862000|34d4a224-9c58-42d5-95ba-e0702e7341f7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|112162000|99338000|77fa1a50-f5d4-48cd-898c-9e3926b89b71|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|71300000|127400000|280f29a9-8548-4761-b94d-bcd09ae9470c|5b0782d3-b7e4-47cf-8f45-54f036bf67d1",
+          ""
+        ],
+        [
+          "silk_overlap|78500000|123766666|2d44747e-f50e-45d8-a48b-3ff3d4242e64|ca66198a-f113-4440-acde-3a589e38ddd8",
+          ""
+        ],
+        [
+          "silk_overlap|78500000|123766666|5b0782d3-b7e4-47cf-8f45-54f036bf67d1|ca66198a-f113-4440-acde-3a589e38ddd8",
+          ""
+        ],
+        [
+          "silk_overlap|78500000|126800000|1c0fcbbd-1487-4d35-a99b-c50b2f4e2bdf|2d44747e-f50e-45d8-a48b-3ff3d4242e64",
+          ""
+        ],
+        [
+          "silk_overlap|78500000|126800000|1c0fcbbd-1487-4d35-a99b-c50b2f4e2bdf|5b0782d3-b7e4-47cf-8f45-54f036bf67d1",
+          ""
+        ],
+        [
+          "silk_overlap|82500000|127400000|2d44747e-f50e-45d8-a48b-3ff3d4242e64|e1ad445d-b761-4c5b-a3fb-15b8790d3d3c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -129,11 +184,11 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +235,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +264,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -473,6 +535,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "POWER_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5
+      },
+      {
+        "name": "POWER_3A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6
       }
     ],
     "meta": {
@@ -480,7 +556,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER_3A",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "POWER_1A",
+        "pattern": "3.3V"
+      },
+      {
+        "netclass": "POWER_3A",
+        "pattern": "5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
