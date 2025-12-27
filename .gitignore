@@ -42,3 +42,5 @@ fp-info-cache
 universal-board-backups
 ~*
 .DS_Store
+
+bom/
