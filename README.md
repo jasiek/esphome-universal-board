@@ -26,3 +26,10 @@
 ## Other
 
 * [A Primer on USB Type-C® and USB Power Delivery Applications and Requirements](https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf)
+
+## TODO for rev 3
+
+* Place everything on one side of the board!
+* Add another footprint for WS2812B and WS2812S, so that either can be populated
+* See if there's a chip which can isolate 4 USB lines (power + PD signalling) - is isolation even needed for PD lines?
+* Do we need to use electrolytic capacitors?
