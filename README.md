@@ -31,10 +31,9 @@
 
 * Place everything on one side of the board!
 * Add another footprint for WS2812B and WS2812S, so that either can be populated
-* See if there's a chip which can isolate 4 USB lines (power + PD signalling) - is isolation even needed for PD lines?
 * Do we need to use electrolytic capacitors?
-* Get rid of the 3A PSU circuit.
+* ~~Get rid of the 3A PSU circuit.~~
 * Replace LED transmitter with a 940nm part, for example TSAL6200 (narrow beam), OSI5LA56A1A, IR7393C (100mA), OSI5NE87B1A, IR323/H0-A, IR8294, OSI5LA7WA1B.
 * Hook up the output of the WS2812 correctly.
 * Holes in the board need to be slightly bigger.
-* 22-33 ohm series resistors on the USB pins: USB-C <-> ESD <-> R <-> USB on ESP32.
+* ~~22-33 ohm series resistors on the USB pins: USB-C <-> ESD <-> R <-> USB on ESP32.~~
