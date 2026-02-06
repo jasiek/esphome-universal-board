@@ -10285,7 +10285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 52.07 104.14 0)
 			(effects
 				(font
@@ -10569,7 +10569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -10636,7 +10636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 72.39 28.448 90)
 			(effects
 				(font
@@ -11460,7 +11460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 50.8 0)
 			(effects
 				(font
@@ -11599,7 +11599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -11737,7 +11737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 54.61 74.93 0)
 			(effects
 				(font
@@ -12218,7 +12218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.1952 144.78 0)
 			(effects
 				(font
@@ -13131,7 +13131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -13333,7 +13333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 72.39 30.988 90)
 			(effects
 				(font
@@ -13730,7 +13730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 212.09 76.2 0)
 			(effects
 				(font
