@@ -12,7 +12,7 @@ DPI := 300
 
 # Default target
 .PHONY: all
-all: $(PDF_FILE) $(PNG_FILES)
+all: $(PDF_FILE) $(PNG_FILES) Makefile
 
 # Create output directories
 $(OUTPUT_DIR):
