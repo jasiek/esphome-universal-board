@@ -10741,7 +10741,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LESD5D5.0CT1G"
+		(property "Value" "PESD5V0L1BA,115-ES"
 			(at 50.546 67.564 90)
 			(effects
 				(font
@@ -10750,7 +10750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -11636,7 +11636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LESD5D5.0CT1G"
+		(property "Value" "PESD5V0L1BA,115-ES"
 			(at 20.32 142.2399 90)
 			(effects
 				(font
@@ -11645,7 +11645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 17.78 140.97 0)
 			(effects
 				(font
@@ -11706,7 +11706,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LESD5D5.0CT1G"
+		(property "Value" "PESD5V0L1BA,115-ES"
 			(at 62.23 52.0699 90)
 			(effects
 				(font
@@ -11715,7 +11715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 50.8 0)
 			(effects
 				(font
@@ -11845,7 +11845,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LESD5D5.0CT1G"
+		(property "Value" "PESD5V0L1BA,115-ES"
 			(at 66.04 59.6899 90)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 63.5 58.42 0)
 			(effects
 				(font

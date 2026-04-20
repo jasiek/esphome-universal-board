@@ -508,7 +508,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "universal-board.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
